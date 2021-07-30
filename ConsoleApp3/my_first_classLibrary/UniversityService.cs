@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ClassLibrary
+namespace University.dll
 {
     public class UniversityService
     {
@@ -16,7 +16,7 @@ namespace ClassLibrary
         public IEnumerable<Mentor> GetMentorsWithDragonInGroup()
         {
             return _university.Groups
-                    .Where(g => g.Students.Exists(s => s.Gender == 'D'))
+                    .Where(g => g.Students.Exists(s => s.Sex == 'D'))
                     .Select(g => g.Mentor)
                 ;
         }
@@ -44,10 +44,10 @@ namespace ClassLibrary
         public void Foo1()
         {
             _university.Groups
-                .Where(gr => gr.Students.Exists(s => s.Gender == 'D' && gr.Mentor.Gender == 'F'))
-                //.Where(g => g.Mentor.Gender == 'F')
+                .Where(gr => gr.Students.Exists(s => s.Sex == 'D' && gr.Mentor.Sex == 'F'))
+                //.Where(g => g.Mentor.Sex == 'F')
                 .SelectMany(g => g.Students)
-                .Where(s => s.Age > 30)//я бесполезен
+                .Where(s => s.Age > 30)
                 .OrderByDescending(s => s.Grade)
                 .ThenByDescending(s => s.Name)
                 .SkipLast(1)

@@ -1,4 +1,4 @@
-﻿namespace ClassLibrary
+﻿namespace University.dll
 {
     public class Mentor : Person
     {

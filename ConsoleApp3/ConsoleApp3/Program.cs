@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Channels;
-using ClassLibrary;
+using University.dll;
 
-namespace first_project
+namespace UniversityPET
 {
     internal class Program
     {

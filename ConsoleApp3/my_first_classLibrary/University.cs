@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ClassLibrary
+namespace University.dll
 {
     public class University
     {
