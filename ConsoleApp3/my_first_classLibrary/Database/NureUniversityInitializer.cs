@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using UniversityPET.dll.Models.Implementations;
 
-namespace UniversityPET.dll
+namespace UniversityPET.dll.Database
 {
     public static class NureUniversityInitializer
     {

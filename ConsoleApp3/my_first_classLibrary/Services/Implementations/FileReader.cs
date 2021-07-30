@@ -1,6 +1,7 @@
 ﻿using System.IO;
+using UniversityPET.dll.Services.Interfaces;
 
-namespace UniversityPET.dll
+namespace UniversityPET.dll.Services.Implementations
 {
     public class FileReader : IReader
     {

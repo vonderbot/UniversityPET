@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace UniversityPET.dll
+namespace UniversityPET.dll.Models.Implementations
 {
     public class Group
     {

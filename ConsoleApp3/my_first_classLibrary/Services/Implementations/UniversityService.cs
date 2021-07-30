@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using UniversityPET.dll.Models.Implementations;
 
-namespace UniversityPET.dll
+namespace UniversityPET.dll.Services.Implementations
 {
     public class UniversityService
     {

@@ -1,4 +1,4 @@
-﻿namespace UniversityPET.dll
+﻿namespace UniversityPET.dll.Services.Interfaces
 {
     public interface IReader
     {

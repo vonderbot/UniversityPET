@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
+using UniversityPET.dll.Services.Interfaces;
 
-namespace UniversityPET.dll
+namespace UniversityPET.dll.Services.Implementations
 {
     public class Serializator<T> : ISerializator<T> where T : class
     {

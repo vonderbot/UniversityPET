@@ -1,4 +1,6 @@
-﻿namespace UniversityPET.dll
+﻿using UniversityPET.dll.Services.Interfaces;
+
+namespace UniversityPET.dll.Services.Implementations
 {
     public class TxtDatabaseService<T>
     {

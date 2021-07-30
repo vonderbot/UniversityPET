@@ -1,4 +1,4 @@
-﻿namespace UniversityPET.dll
+﻿namespace UniversityPET.dll.Models.Implementations
 {
     public class Student : Person
     {
