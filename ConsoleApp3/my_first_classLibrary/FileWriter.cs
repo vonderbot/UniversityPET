@@ -1,8 +1,8 @@
 ﻿using System.IO;
 
-namespace University.dll
+namespace UniversityPET.dll
 {
-    public class FileWriter
+    public class FileWriter : IWriter
     {
         private readonly string _path;
 

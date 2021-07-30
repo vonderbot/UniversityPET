@@ -1,8 +1,8 @@
 ﻿using System.IO;
 
-namespace University.dll
+namespace UniversityPET.dll
 {
-    public class FileReader
+    public class FileReader : IReader
     {
         private readonly string _path;
 

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace University.dll
+namespace UniversityPET.dll
 {
     public class UniversityService
     {

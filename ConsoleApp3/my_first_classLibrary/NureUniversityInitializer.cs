@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 
-namespace University.dll
+namespace UniversityPET.dll
 {
-    public class NureUniversityInitializer : IUniversityInitializer
+    public static class NureUniversityInitializer
     {
-        public University Create()
+        public static University Create()
         {
             return new()
             {

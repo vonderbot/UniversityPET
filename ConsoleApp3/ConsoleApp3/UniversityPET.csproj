@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\my_first_classLibrary\University.dll.csproj" />
+    <ProjectReference Include="..\my_first_classLibrary\UniversityPET.dll.csproj" />
   </ItemGroup>
 
 </Project>

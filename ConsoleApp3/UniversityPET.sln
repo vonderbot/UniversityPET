@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniversityPET", "ConsoleApp3\UniversityPET.csproj", "{E7B3FF20-9A29-4C0D-BDCB-9847BDEACA17}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "University.dll", "my_first_classLibrary\University.dll.csproj", "{133D8053-C974-4303-B762-72C68BB36413}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniversityPET.dll", "my_first_classLibrary\UniversityPET.dll.csproj", "{133D8053-C974-4303-B762-72C68BB36413}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

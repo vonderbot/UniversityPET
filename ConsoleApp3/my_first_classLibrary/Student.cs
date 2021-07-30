@@ -1,4 +1,4 @@
-﻿namespace University.dll
+﻿namespace UniversityPET.dll
 {
     public class Student : Person
     {

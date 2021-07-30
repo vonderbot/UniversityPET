@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json;
 
-namespace University.dll
+namespace UniversityPET.dll
 {
-    public class SerializationService<T>
+    public class Serializator<T> : ISerializator<T> where T : class
     {
         public string Serialize(T obj) => JsonConvert.SerializeObject(obj);
         public T Deserialize(string buffer) => JsonConvert.DeserializeObject<T>(buffer);
