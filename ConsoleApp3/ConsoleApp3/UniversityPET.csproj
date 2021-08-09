@@ -6,7 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\my_first_classLibrary\ClassLibrary.csproj" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\my_first_classLibrary\UniversityPET.dll.csproj" />
   </ItemGroup>
 
 </Project>

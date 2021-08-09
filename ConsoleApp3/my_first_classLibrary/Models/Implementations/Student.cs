@@ -1,4 +1,4 @@
-﻿namespace ClassLibrary
+﻿namespace UniversityPET.dll.Models.Implementations
 {
     public class Student : Person
     {

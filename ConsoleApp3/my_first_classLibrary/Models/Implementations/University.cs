@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ClassLibrary
+namespace UniversityPET.dll.Models.Implementations
 {
     public class University
     {

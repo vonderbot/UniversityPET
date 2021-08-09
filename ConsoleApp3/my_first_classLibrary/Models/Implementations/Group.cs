@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
 
-namespace ClassLibrary
+namespace UniversityPET.dll.Models.Implementations
 {
     public class Group
     {

@@ -1,10 +1,11 @@
 ﻿using System.Collections.Generic;
+using UniversityPET.dll.Models.Implementations;
 
-namespace ClassLibrary
+namespace UniversityPET.dll.Database
 {
-    public class NureUniversityInitializer : IUniversityInitializer
+    public static class NureUniversityInitializer
     {
-        public University Create()
+        public static University Create()
         {
             return new()
             {
@@ -12,11 +13,11 @@ namespace ClassLibrary
                 GraduatingPrice = 22000.50,
                 Groups = new List<Group>(new[]{new Group
                     {
-                        Faculty = "CS",
+                        Faculty = "C",
                         Mentor = new Mentor
                         {
                             Age = 55,
-                            Gender = 'M',
+                            Sex = 'M',
                             Salary = 830d,
                             Name = "Maria"
                         },
@@ -24,28 +25,28 @@ namespace ClassLibrary
                         Students = new List<Student>(new[]{new Student
                             {
                                 Age = 20,
-                                Gender = 'M',
+                                Sex = 'M',
                                 Grade = 83,
                                 Name = "Oleg"
                             },
                             new Student
                             {
                                 Age = 30,
-                                Gender = 'F',
+                                Sex = 'F',
                                 Grade = 60,
                                 Name = "Olegovna"
                             },
                             new Student
                             {
                                 Age = 40,
-                                Gender = 'M',
+                                Sex = 'M',
                                 Grade = 35,
                                 Name = "Olegovich"
                             },
                             new Student
                             {
                                 Age = 50,
-                                Gender = 'M',
+                                Sex = 'M',
                                 Grade = 100,
                                 Name = "Olegasse"
                             }
@@ -53,11 +54,11 @@ namespace ClassLibrary
                     },
                     new Group
                     {
-                        Faculty = "CS",
+                        Faculty = "A",
                         Mentor = new Mentor
                         {
                             Age = 0,
-                            Gender = 'F',
+                            Sex = 'F',
                             Salary = 450d,
                             Name = "Grisha"
                         },
@@ -65,28 +66,28 @@ namespace ClassLibrary
                         Students = new List<Student>(new[]{new Student
                             {
                                 Age = 2000,
-                                Gender = 'D',
+                                Sex = 'D',
                                 Grade = 60,
                                 Name = "Slavic"
                             },
                             new Student
                             {
                                 Age = 22,
-                                Gender = 'M',
+                                Sex = 'M',
                                 Grade = 72,
                                 Name = "Aliva"
                             },
                             new Student
                             {
                                 Age = 35,
-                                Gender = 'F',
+                                Sex = 'F',
                                 Grade = 100,
                                 Name = "Avila"
                             },
                             new Student
                             {
                                 Age = 50,
-                                Gender = 'M',
+                                Sex = 'M',
                                 Grade = 100,
                                 Name = "Nuruto"
                             }
