@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ConsoleApp3\UniversityPET.csproj" />
+    <ProjectReference Include="..\UniversityPET\UniversityPET.csproj" />
   </ItemGroup>
 
 </Project>
