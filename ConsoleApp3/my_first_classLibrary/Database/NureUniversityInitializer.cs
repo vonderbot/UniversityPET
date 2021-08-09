@@ -13,7 +13,7 @@ namespace UniversityPET.dll.Database
                 GraduatingPrice = 22000.50,
                 Groups = new List<Group>(new[]{new Group
                     {
-                        Faculty = "CS",
+                        Faculty = "C",
                         Mentor = new Mentor
                         {
                             Age = 55,
@@ -54,7 +54,7 @@ namespace UniversityPET.dll.Database
                     },
                     new Group
                     {
-                        Faculty = "CS",
+                        Faculty = "A",
                         Mentor = new Mentor
                         {
                             Age = 0,
