@@ -22,16 +22,14 @@ namespace UniversityPET.Tests
                                   ":[{\"Grade\":60,\"Name\":\"Slavic\",\"Sex\":\"D\",\"Age\":2000},{\"Grade\":72,\"Name\":\"Aliva\"" +
                                   ",\"Sex\":\"M\",\"Age\":22},{\"Grade\":100,\"Name\":\"Avila\",\"Sex\":\"F\",\"Age\":35},{\"Grade\"" +
                                   ":100,\"Name\":\"Nuruto\",\"Sex\":\"M\",\"Age\":50}]}]}";
-            const string fool = "lol, you died";
-            var mock1 = new Mock<IWriter>();
-            var mock2 = new Mock<IReader>();
-            var mock3 = new Mock<ISerializator<University>>();
-            mock1.Setup(repo => repo.Write(buffer));
-            mock2.Setup(repo => repo.Read()).Returns(buffer);
-            mock3.Setup(repo => repo.Serialize(NureUniversityInitializer.Create())).Returns(buffer);
-            mock3.Setup(repo => repo.Deserialize(buffer)).Returns(NureUniversityInitializer.Create());
-            //mock.Setup(repo => repo.Serialize()).Returns();
-            var databaseService = new TxtDatabaseService<University>(mock1.Object, mock2.Object, mock3.Object);
+            var writer = new Mock<IWriter>();
+            var reader = new Mock<IReader>();
+            var serializator = new Mock<ISerializator<University>>();
+            writer.Setup(repo => repo.Write(buffer));
+            reader.Setup(repo => repo.Read()).Returns(buffer);
+            serializator.Setup(repo => repo.Serialize(NureUniversityInitializer.Create())).Returns(buffer);
+            serializator.Setup(repo => repo.Deserialize(buffer)).Returns(NureUniversityInitializer.Create());
+            var databaseService = new TxtDatabaseService<University>(writer.Object, reader.Object, serializator.Object);
 
             // Act
             var result = databaseService.Read();
