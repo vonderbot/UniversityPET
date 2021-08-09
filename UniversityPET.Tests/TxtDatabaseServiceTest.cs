@@ -1,8 +1,4 @@
 ﻿using Moq;
-using UniversityPET.dll.Database;
-using UniversityPET.dll.Models.Implementations;
-using UniversityPET.dll.Services.Implementations;
-using UniversityPET.dll.Services.Interfaces;
 using Xunit;
 
 namespace UniversityPET.Tests
