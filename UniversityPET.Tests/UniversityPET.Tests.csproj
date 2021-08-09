@@ -14,8 +14,4 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\UniversityPET\UniversityPET.csproj" />
-  </ItemGroup>
-
 </Project>
